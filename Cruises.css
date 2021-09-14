@@ -1,19 +1,41 @@
 /****************************NAV Bar*******************************/
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:focus,
-.navbar-inverse .navbar-nav > .active > a:hover {
-  background-color: #0f1939;
+/****************************NAV Bar*******************************/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: #337ab700;
 }
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
-  background-color: #0f1939;
+.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+    background-color: #337ab700;
 }
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:focus,
-.navbar-inverse .navbar-nav > .active > a:hover {
-  border-bottom: 3px solid #f0a859;
+.nav>li>a{
+    color: white;
 }
+.qv-collapsed-listbox .title-wrapper .title{
+  font-size: 1em !important;
+}
+.nav-pills>li.active>a{
+    border-bottom: 3px solid #f0a859;
+}
+.nav-pills>li>a{
+    border-radius: 0;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #0f1939;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #0f1939;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    border-bottom: 3px solid #f0a859;
+}
+
+/****************************NAV Bar*******************************/
+/****************************NAV Bar*******************************/
 @media (min-width: 767px) {
+#toggle2{
+    position:relative !important;
+    left: 85px !important;
+    top:-32px !important;
+}
     .logo2 {
       position: relative;
       left: 0px;
@@ -21,12 +43,13 @@
     }
   }
   @media (max-width: 767px) {
+      #toggl3{
+        margin-top: 21px;
+      }
     .navLogo {
       width: 30% !important;
     }
   }
-/****************************NAV Bar*******************************/
-
 /*Devhub stuff*/
 #QV-30 .Pre-Chart-Title{
  width:60px;
